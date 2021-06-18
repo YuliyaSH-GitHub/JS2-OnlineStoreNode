@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.onlineStoreContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.searchForm {
+  padding: 15px;
+}
+.btnSearch {
+  background-color: transparent;
+}
+.searchField:focus {
+  outline: black;
+}
+.iconBtnSearch {
+  font-size: 16px !important;
+  color: #fff;
+}
+
+.invisible {
+  display: none;
+}
+
+.productRemoveBtn {
+  font-size: 17px !important;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+.productRemove {
+  font-size: 16px !important;
+  vertical-align: middle;
+}
+.productRemoveBtn {
+  margin-right: 10px;
+}
+@import "bem/onlineStore";

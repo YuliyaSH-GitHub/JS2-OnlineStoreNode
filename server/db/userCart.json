@@ -1,0 +1,18 @@
+{
+  "amount": 500,
+  "countGoods": 2,
+  "contents": [
+    {
+      "imageUrl": "image/goods/img1.jpg",
+      "title": "Наушники",
+      "price": 150,
+      "id": 1
+    },
+    {
+      "imageUrl": "image/goods/img3.jpg",
+      "title": "Беспроводные наушники",
+      "price": 350,
+      "id": 3
+    }
+  ]
+}

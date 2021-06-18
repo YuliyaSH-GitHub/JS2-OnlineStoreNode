@@ -1,0 +1,30 @@
+[
+  {
+
+    "imageUrl": "image/goods/img1.jpg",
+    "title": "Наушники",
+    "price": 150,
+    "id": 1
+  },
+  {
+
+    "imageUrl": "image/goods/img2.jpg",
+    "title": "Телефон",
+    "price": 50,
+    "id": 2
+  },
+  {
+
+    "imageUrl": "image/goods/img3.jpg",
+    "title": "Беспроводные наушники",
+    "price": 350,
+    "id": 3
+  },
+  {
+
+    "imageUrl": "image/goods/img4.jpg",
+    "title": "Часы",
+    "price": 250,
+    "id": 4
+  }
+]
