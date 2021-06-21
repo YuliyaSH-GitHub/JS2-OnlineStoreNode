@@ -16,21 +16,17 @@
     <div id="app" class="onlineStoreContainer">
         <header class="b-OnlineStoreHeader b-OnlineStoreHeader_disposition">
             <search></search>
-            <button @click="isVisibleCart=!isVisibleCart" class="b-OnlineStoreHeader__basketButton">
-                Корзина
-            </button>
-            <basket :basketarray="basketItems" :visibility="isVisibleCart" :totalsum="totalSum"
-                @removeproduct="removeProduct"></basket>
+            <cart ref="cart"></cart>
         </header>
         <main>
-            <goods :goodsarray="goods" @addproduct="addProduct"></goods>
+            <products ref="products"></products>
         </main>
     </div>
-    <script src="script/vue/vue.js"></script>
-    <script src="script/GoodsComponent.js"></script>
-    <script src="script/BasketComponent.js"></script>
-    <script src="script/FilterComponent.js"></script>
-    <script src="script/app.js"></script>
+    <script src="js/vue/vue.js"></script>
+    <script src="js/GoodsComponent.js"></script>
+    <script src="js/BasketComponent.js"></script>
+    <script src="js/FilterComponent.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+{
+  "name": "JS2-OnlineStoreNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliyaSH-GitHub/JS2-OnlineStoreNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliyaSH-GitHub/JS2-OnlineStoreNode/issues"
+  },
+  "homepage": "https://github.com/YuliyaSH-GitHub/JS2-OnlineStoreNode#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
